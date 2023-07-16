@@ -1,0 +1,39 @@
+.herosection {
+  overflow: hidden;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.herosection > div {
+  width: 50%;
+}
+
+.herotxt {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+  width: 60%;
+}
+
+.h {
+  color: white;
+  font-size: 8rem;
+  font-weight: bolder;
+  display: inline;
+  transition: .5s;
+}
+
+.h:hover {
+
+  text-shadow: 0 0 5px #ffffff50, 0 0 10px #ffffff50, 0 0 20px #ffffff50,  0 0 60px #ffffff50 , 0 0 120px #ffffff50 ;
+ 
+}
+
+
+.stick
+{
+  position: sticky;
+  top: 0;
+
+}

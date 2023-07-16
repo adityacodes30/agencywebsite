@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+
+
+.hed
+{
+    font-family: 'Plaster', cursive;
+    font-size: 70px;
+    color: white;
+    width: 250vw;
+    position: relative;
+    top:15vh; 
+}
