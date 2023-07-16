@@ -20,7 +20,7 @@ const Section1 = () => {
   });
   
   const rhi = useTransform(scrollYProgress2, [0, 0.5, 1], [0, 900, 1400]);
-  const bot = useTransform(scrollYProgress2, [0, 0.6, 1], [-200, -200,600]);
+  const bot = useTransform(scrollYProgress2, [0, 0.6, 1], [-200, -200,50]);
   const ot = useTransform(scrollYProgress2, [0, 0.6, 1], [100,400, 670]);
 
   ///////

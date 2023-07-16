@@ -79,6 +79,16 @@ const Steps = () => {
               with this dynamic generation, weaving together visuals, words, and
               emotions to create a captivating brand experience
             </p>
+            <h2 style={{
+                color: "white",
+                fontSize: "7rem",
+                position: "relative",
+                display:'inline',
+                fontWeight: "lighter",
+                top:'41%',
+                left:'10%',
+                opacity:'0.5'
+              }}>01</h2>
           </motion.div>
           <motion.div
             style={{
@@ -86,7 +96,11 @@ const Steps = () => {
               marginLeft: "3vw",
               backgroundColor: "#1c1b19",
               borderRadius: "5.5rem",
+              borderStyle:'solid',
+              borderColour:'hite',
+              borderWidth:'4px',
               x: xpos,
+             
             }}
           >
             <h1
@@ -116,6 +130,16 @@ const Steps = () => {
               humor, relatability, and cutting-edge trends to ignite social
               media conversations.
             </p>
+            <h2 style={{
+                color: "white",
+                fontSize: "7rem",
+                position: "relative",
+                display:'inline',
+                fontWeight: "lighter",
+                top:'43.6%',
+                left:'10%',
+                opacity:'0.5'
+              }}>02</h2>
           </motion.div>
           <motion.div
             style={{
@@ -153,7 +177,16 @@ const Steps = () => {
               brand's values.
               By leveraging their reach and credibility, we'll amplify
               your brand's voice
-            </p>
+            </p><h2 style={{
+                color: "white",
+                fontSize: "7rem",
+                position: "relative",
+                display:'inline',
+                fontWeight: "lighter",
+                top:'43.6%',
+                left:'10%',
+                opacity:'0.5'
+              }}>03</h2>
           </motion.div>
         </motion.div>
       </div>
