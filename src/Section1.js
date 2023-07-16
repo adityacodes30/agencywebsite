@@ -2,6 +2,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import Steps from "./Steps";
 import stl from './styles/Section1.module.css';
+import Carousel from "./Carousel";
+
 
 const Section1 = () => {
   //Animation for sliding text
@@ -21,7 +23,7 @@ const Section1 = () => {
   
   const rhi = useTransform(scrollYProgress2, [0, 0.5, 1], [0, 900, 1400]);
   const bot = useTransform(scrollYProgress2, [0, 0.6, 1], [-200, -200,50]);
-  const ot = useTransform(scrollYProgress2, [0, 0.6, 1], [-150,400, 670]);
+  const ot = useTransform(scrollYProgress2, [0, 0.6, 1], [-50,400, 770]);
 
   ///////
 
@@ -72,6 +74,9 @@ const Section1 = () => {
       </motion.div>
 
       <Steps></Steps>
+
+      
+      <Carousel></Carousel>
       <div style={{ height: "1000px", backgroundColor: "" }}></div>
       <div style={{ height: "1000px", backgroundColor: "yellow" }}></div>
     </>

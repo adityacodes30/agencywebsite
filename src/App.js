@@ -6,6 +6,7 @@ import Section1 from "./Section1";
 import Blob from "./Blob";
 import stl from './styles/blob.module.css'
 import {motion} from 'framer-motion'
+
 function App() {
   return (
    <div>
@@ -14,6 +15,7 @@ function App() {
       <Blob></Blob>
       <HeroSection></HeroSection>
       <Section1></Section1>
+     
       </div>
    
   );
