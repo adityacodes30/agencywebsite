@@ -10,7 +10,7 @@ const Section1 = () => {
     target: targetRef,
     offset: [" start end", "end center"],
   });
-  const opa = useTransform(scrollYProgress1, [0, 0.5, 1], [0, 0.5, 1]);
+  const opa = useTransform(scrollYProgress1, [0, 0.5, 1], [0, 0.3, 1]);
   const pos = useTransform(scrollYProgress1, [0, 0.1, 1], [900, 500, 50]);
   ////////
   const targ = useRef(null);
@@ -21,7 +21,7 @@ const Section1 = () => {
   
   const rhi = useTransform(scrollYProgress2, [0, 0.5, 1], [0, 900, 1400]);
   const bot = useTransform(scrollYProgress2, [0, 0.6, 1], [-200, -200,50]);
-  const ot = useTransform(scrollYProgress2, [0, 0.6, 1], [100,400, 670]);
+  const ot = useTransform(scrollYProgress2, [0, 0.6, 1], [-150,400, 670]);
 
   ///////
 
@@ -48,24 +48,26 @@ const Section1 = () => {
 
         <motion.div
           style={{
-            background: "rgba(255,255,255,0.1)",
+            background: "rgba(255,255,255,0.05)",
             backdropFilter: "saturate(180%) blur(10px)",
             width:'50vw',
             height:'30vh',
             borderRadius:'2rem',
             display:'flex',
-            color:'#6a1aa4',
+            // color: 'blueviolet',
+            color: '#ffffff85',
             alignItems:'center',
             justifyContent:'center',
             position:'relative',
             left:'50vw',
             padding:'2rem',
             bottom:bot,
+            fontSize:'2rem'
             
           }}
         >
-          <b>At Sublime Labs we specialise in cooking 360 degree strategy that
-          helps you scale</b>
+         <p style={{display:'inline', width:'90%' ,fontWeight:'bolder' }}>At Sublime Labs we specialise in cooking 360 degree strategy that
+          helps you scale</p>
         </motion.div>
       </motion.div>
 
