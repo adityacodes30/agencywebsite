@@ -68,16 +68,12 @@ const Section1 = () => {
             
           }}
         >
-         <p style={{display:'inline', width:'90%' ,fontWeight:'bolder' }}>Sublime Labs is a GEN-Z centric marketing agency</p>
+         <p style={{display:'inline', width:'90%' ,fontWeight:'bolder' }}>Gen-Z is the today's young generation known for their digital nativeness and unique cultural characteristics.</p>
         </motion.div>
       </motion.div>
 
-      <Steps></Steps>
-
       
-      <Carousel></Carousel>
-      <div style={{ height: "1000px", backgroundColor: "" }}></div>
-      <div style={{ height: "1000px", backgroundColor: "yellow" }}></div>
+      
     </>
   );
 };

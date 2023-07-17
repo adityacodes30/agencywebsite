@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Lobster&family=Tektur:wght@700&family=VT323&display=swap');
+
+
+.ald
+{
+    
+    font-family: 'Aldrich', sans-serif;
+}
+.lob{
+
+    font-family: 'Lobster', cursive;
+}
+.tek
+{
+    font-family: 'Tektur', cursive;
+}
+
+.vt
+{
+
+    font-family: 'VT323', monospace;
+}

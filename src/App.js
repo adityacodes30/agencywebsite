@@ -6,6 +6,9 @@ import Section1 from "./Section1";
 import Blob from "./Blob";
 import stl from './styles/blob.module.css'
 import {motion} from 'framer-motion'
+import Steps from "./Steps";
+import Carousel from "./Carousel"
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -15,7 +18,9 @@ function App() {
       <Blob></Blob>
       <HeroSection></HeroSection>
       <Section1></Section1>
-     
+      <Steps></Steps>
+      <Carousel></Carousel>
+     <Footer></Footer>
       </div>
    
   );

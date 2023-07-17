@@ -1,13 +1,14 @@
 import React from "react";
 import stl from "./styles/HeroSection.module.css";
 import Spline from "@splinetool/react-spline";
+import fon from './styles/fonts.module.css'
 
 const HeroSection = () => {
   return (
     <div className={stl.herosection}>
       <div className={stl.herotxt}>
         <H>We <span className={stl.h}>mix</span></H>
-        <H><span className={stl.h}>Realities</span></H>
+        <H><span className={stl.h}><span className={fon.ald}>Realities</span></span></H>
         <H>to <span className={stl.h}>Market</span></H>
         <H>your <span className={stl.h}>Brand</span></H>
       </div>
