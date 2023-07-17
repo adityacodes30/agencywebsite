@@ -1,15 +1,17 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide ,} from "swiper/react";
+import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
+
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./styles/carousel.css";
+import "swiper/css/autoplay";
 
-import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
-import slide_image_1 from "./img_1.jpg";
+import slide_image_1 from './Social Media Marketin1g.jpg';
 const Carousel = () => {
   return (
     <>
@@ -32,6 +34,8 @@ const Carousel = () => {
         grabCursor={true}
         centeredSlides={true}
         loop={true}
+        autoplay={{delay:2500, disableOnInteraction:false}}
+        
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 0,
@@ -45,13 +49,12 @@ const Carousel = () => {
           prevEl: ".swiper-button-prev",
           clickable: true,
         }}
-        modules={[EffectCoverflow, Pagination, Navigation]}
+        modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
         className="swiper_container"
       >
-        <SwiperSlide>
+        <SwiperSlide >
           <img
             src={slide_image_1}
-           
             alt="slide_image"
           />
         </SwiperSlide>

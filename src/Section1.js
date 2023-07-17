@@ -68,8 +68,7 @@ const Section1 = () => {
             
           }}
         >
-         <p style={{display:'inline', width:'90%' ,fontWeight:'bolder' }}>At Sublime Labs we specialise in cooking 360 degree strategy that
-          helps you scale</p>
+         <p style={{display:'inline', width:'90%' ,fontWeight:'bolder' }}>Sublime Labs is a GEN-Z centric marketing agency</p>
         </motion.div>
       </motion.div>
 
