@@ -27,9 +27,9 @@ const H = ({ children }) => {
   return (
     <span
       style={{
-        paddingLeft: "10vh",
+       
         color: "white",
-        fontSize: "17vh",
+        fontSize: "16vh",
         fontWeight: "bolder",
         display:'inline',
         width:'45vw'

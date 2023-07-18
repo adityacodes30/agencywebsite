@@ -14,12 +14,12 @@
   display: flex;
   flex-direction: column;
   padding-top: 2%;
-
+  padding-left: 10vh;
 }
 
 .h {
   color: white;
-  font-size: 17vh;
+  font-size: 16vh;
   font-weight: bolder;
   display: inline;
   transition: .5s;
