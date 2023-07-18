@@ -12,9 +12,9 @@ const HeroSection = () => {
         <H>to <span className={stl.h}>Market</span></H>
         <H>your <span className={stl.h}>Brand</span></H>
       </div>
-     <div style={{display:'flex', justifyContent:'center', alignContent:'center'}}>
+     <div style={{display:'flex', alignContent:'center'}}>
      <div style={{paddingTop:'1vh'}}>
-     <Spline scene="https://prod.spline.design/BfHIFHPec4tCR508/scene.splinecode" />
+     <Spline style={{height:'90vh'}} scene="https://prod.spline.design/BfHIFHPec4tCR508/scene.splinecode" />
      </div>
         </div>
     </div>
@@ -29,8 +29,10 @@ const H = ({ children }) => {
       style={{
         paddingLeft: "10vh",
         color: "white",
-        fontSize: "130px",
+        fontSize: "17vh",
         fontWeight: "bolder",
+        display:'inline',
+        width:'45vw'
       }}
     >
       {children}

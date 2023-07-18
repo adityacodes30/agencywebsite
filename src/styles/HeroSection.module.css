@@ -5,20 +5,21 @@
   display: flex;
 }
 
-.herosection > div {
-  width: 50%;
+*
+{
+  rotate: 0.0000001;
 }
 
 .herotxt {
   display: flex;
   flex-direction: column;
   padding-top: 2%;
-  width: 60%;
+
 }
 
 .h {
   color: white;
-  font-size: 8rem;
+  font-size: 17vh;
   font-weight: bolder;
   display: inline;
   transition: .5s;
