@@ -10,21 +10,28 @@ import "swiper/css/navigation";
 import "./styles/carousel.css";
 import "swiper/css/autoplay";
 
+import img1 from './Assets/Artboard 2.png'
+import img2 from './Assets/Artboard 3.png'
+import img3 from './Assets/Artboard 4.png'
+import img4 from './Assets/Artboard 5.png'
+import img5 from './Assets/Artboard 6.png'
+import img6 from './Assets/Artboard 7.png'
+import img7 from './Assets/Artboard 7 copy.png'
+
 
 import slide_image_1 from './Social Media Marketin1g.jpg';
 const Carousel = () => {
   return (
     <>
-    <div style={{paddingTop:'8vh',}}>
+    <div style={{paddingTop:'8vh'}}>
       <h1
         style={{
           fontSize: "7rem",
           display: "inline",
           position: "relative",
-          left: "27vw",
+          left: "30vw",
           color: "white",
           top:'9vh',
-         
         }}
       >
         Our Services
@@ -54,27 +61,27 @@ const Carousel = () => {
       >
         <SwiperSlide >
           <img
-            src={slide_image_1}
+            src={img1}
             alt="slide_image"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
+          <img src={img2} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
+          <img src={img3} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
+          <img src={img4} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
+          <img src={img5} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
+          <img src={img6} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
+          <img src={img7} alt="slide_image" />
         </SwiperSlide>
 
         <div className="slider-controler">
